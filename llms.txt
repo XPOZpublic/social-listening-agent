@@ -4,7 +4,7 @@
 
 ## Docs
 
-- [README](README.md): what it does, quickstart with a no-sign-up trial token, how the loop and tools work, cost
+- [README](README.md): what it does, quickstart, how the loop and tools work, cost
 - [Walkthrough post](https://www.xpoz.ai/blog/tutorials/build-a-social-listening-ai-agent-with-claude-and-xpoz-mcp/): the blog tutorial that explains the code step by step
 - [xpoz docs](https://xpoz.ai/docs): the data platform behind the tools, including the remote MCP server for Claude Desktop and Claude Code
 
@@ -15,4 +15,4 @@
 
 ## Examples
 
-- [examples/espresso-machines.md](examples/espresso-machines.md): a real report produced with a trial token
+- [examples/espresso-machines.md](examples/espresso-machines.md): a real report produced with `--limit 5`

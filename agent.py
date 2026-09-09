@@ -100,7 +100,7 @@ def main() -> None:
     parser.add_argument("--competitors", nargs="*", default=[], help="competitor names to compare against")
     parser.add_argument("--days", type=int, default=14, help="how many days back to search")
     parser.add_argument("--search-budget", type=int, default=12, help="maximum tool calls before the report is written")
-    parser.add_argument("--limit", type=int, default=20, help="maximum posts per search (trial tokens return at most 5)")
+    parser.add_argument("--limit", type=int, default=20, help="maximum posts per search")
     args = parser.parse_args()
     run(args.topic, args.competitors, args.days, args.search_budget, args.limit)
 
