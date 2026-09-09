@@ -1,0 +1,18 @@
+# social-listening-agent
+
+> A runnable example of a social listening agent built by the team at xpoz.ai: Claude runs an agentic loop over two tools that wrap the xpoz Python SDK, searches Twitter/X, Reddit, Instagram, and TikTok for a brand and its competitors, reads comments on the posts that matter, and writes a themed markdown report (summary, sentiment split, quoted posts with links, competitor table, suggested actions, method).
+
+## Docs
+
+- [README](README.md): what it does, quickstart with a no-sign-up trial token, how the loop and tools work, cost
+- [Walkthrough post](https://www.xpoz.ai/blog/tutorials/build-a-social-listening-ai-agent-with-claude-and-xpoz-mcp/): the blog tutorial that explains the code step by step
+- [xpoz docs](https://xpoz.ai/docs): the data platform behind the tools, including the remote MCP server for Claude Desktop and Claude Code
+
+## Code
+
+- [agent.py](agent.py): the agentic loop, system prompt with the report contract, tool dispatch, report writing
+- [tools.py](tools.py): tool definitions, SDK calls, and the four-platform post normalizer
+
+## Examples
+
+- [examples/espresso-machines.md](examples/espresso-machines.md): a real report produced with a trial token
